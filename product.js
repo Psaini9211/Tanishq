@@ -310,7 +310,7 @@ function showData1() {
 	data1.forEach((el, i) => {
 		// console.log(el)
 		let productitem = document.createElement('div');
-		productitem.setAttribute('class', 'productitem');
+		productitem.setAttribute('class', 'item');
 		productitem.innerHTML = `<div id=id${i + 6} class="productitem">
                     <img class="imgfile"
                         src=${el.image1}
