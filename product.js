@@ -9,54 +9,68 @@ window.location.href ="item.html"
 
 }
 
+/** @format */
+
 const data = [
 	{
 		name: 'Opulent Elaborate Pendant',
 		price: 28812,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513220PPVAAA00_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/513220PPVAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
-		name: 'Delicate Paisley Pendant',
+		name: 'Opulent Elaborate Pendant',
 		price: 26207,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513220PPYAAA00_1.jpg?impolicy=pqmed&imwidth=640',
+		image1:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/513220PPYAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
-		name: 'Delicate Paisley Pendant',
+		name: 'Opulent Elaborate Pendant',
 		price: 30761,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513220PPZAAA00_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/513220PPZAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
 		name: 'Opulent Elaborate pendant',
 		price: 30216,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513220PQGAAA00_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/513220PQGAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
 		name: 'Opulent Elaborate Pendant',
 		price: 33451,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/503120PDOAAA09_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/503120PDOAAA09_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
 		name: 'Opulent Elaborate Pendant',
 		price: 26866,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/503120PDSAAA09_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/503120PDSAAA09_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 ];
 
@@ -69,7 +83,7 @@ function showData() {
 		productitem.setAttribute('class', 'item');
 		productitem.innerHTML = `<div id=id${i}  class="productitem">
                    <img class="imgfile" 
-                        src=${el.image}
+                        src=${el.image1}
                         alt="">
                     <h3 >${el.name}</h3>
                     <h4>₹ ${el.price}</h4>
@@ -135,72 +149,90 @@ const data1 = [
 		price: 41246,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513920DGJABA00_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/513920DGJABA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
-		name: 'Delicate Paisley Pendant',
-		price: 25948,
+		name: 'Opulent Elaborate Pendant',
+		price: 44782,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/503920DEEABA29_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/503920DEEABA29_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
-		name: 'Ornate Nature Inspired Pendant',
-		price: 31261,
+		name: 'Opulent Elaborate Pendant',
+		price: 35962,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/503220DRBABAP5_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/503220DRBABAP5_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
-		name: 'Ornate Traditional Pendant',
+		name: 'Opulent Elaborate Pendant',
 		price: 28358,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/504025HMQAAA00_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/504025HMQAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
 		name: 'Sophisticated Diamond Ring',
 		price: 33395,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/511920SOCABA00_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/511920SOCABA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
 		name: 'Opulent Elaborate Pendant',
 		price: 29249,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513220DBNABA00_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/513220DBNABA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
-		name: 'Minimalistic Floral Diamond Pendant',
+		name: 'Opulent Elaborate Pendant',
 		price: 29249,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/512220PJQAAA00_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/512220PJQAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
-		name: 'Abstract Diamond Ring',
+		name: 'Opulent Elaborate Pendant',
 		price: 29249,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513220DICABAP1_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/513220DICABAP1_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
 		name: 'Stunning Gold Drop Earrings',
 		price: 44911,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
-		image:
+		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513220DFZAAA00_1.jpg?impolicy=pqmed&imwidth=640',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/513220DFZAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 ];
 
@@ -212,7 +244,7 @@ function showData1() {
 		productitem.setAttribute('class', 'productitem');
 		productitem.innerHTML = `<div id=id${i + 6} class="productitem">
                     <img class="imgfile"
-                        src=${el.image}
+                        src=${el.image1}
                         alt="">
                     <h3>${el.name}</h3>
                     <h4>₹${el.price}</h4>
@@ -337,3 +369,4 @@ function showproductType() {
 		product_div.style.display = 'block';
 	}
 }
+
