@@ -1,5 +1,10 @@
 /** @format */
 
+function prod(){
+window.location.href ="product.html"
+
+}
+
 function slideShow() {
 	const arr = [
 		'https://www.tanishq.co.in/wps/wcm/connect/tanishq/c5537234-e369-4ed1-8f76-0f9e623c444e/desktop/little-big-moments-2500x950.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-c5537234-e369-4ed1-8f76-0f9e623c444e-desktop-nG9o.eX&impolicy=pqlow',
