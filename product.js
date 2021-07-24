@@ -92,6 +92,72 @@ function showData() {
 	});
 }
 showData();
+let count = 0;
+function filterPrice1(a, b, c) {
+	count++;
+
+	if (count % 2 == 1) {
+		let data1 = document.getElementById(a);
+		data1.style.display = 'none';
+		let data2 = document.getElementById(b);
+		data2.style.display = 'none';
+		let data3 = document.getElementById(c);
+		data3.style.display = 'none';
+		filterPrice1_1('id6', 'id7', 'id8', 'id10', 'id14');
+	} else {
+		let data1 = document.getElementById(a);
+		data1.style.display = 'flex';
+		let data2 = document.getElementById(b);
+		data2.style.display = 'flex';
+		let data3 = document.getElementById(c);
+		data3.style.display = 'flex';
+		filterPrice1_1('id6', 'id7', 'id8', 'id10', 'id14');
+	}
+}
+let count2 = 0;
+function filterPrice2(a, b, c) {
+	count2++;
+
+	if (count2 % 2 == 1) {
+		let data1 = document.getElementById(a);
+		data1.style.display = 'none';
+		let data2 = document.getElementById(b);
+		data2.style.display = 'none';
+		let data3 = document.getElementById(c);
+		data3.style.display = 'none';
+		filterPrice2_2('id6', 'id7', 'id8', 'id10', 'id14');
+	} else {
+		let data1 = document.getElementById(a);
+		data1.style.display = 'flex';
+		let data2 = document.getElementById(b);
+		data2.style.display = 'flex';
+		let data3 = document.getElementById(c);
+		data3.style.display = 'flex';
+		filterPrice2_2('id6', 'id7', 'id8', 'id10', 'id14');
+	}
+}
+let count4 = 0;
+function filterPrice3(a, b, c) {
+	count4++;
+
+	if (count4 % 2 == 1) {
+		let data1 = document.getElementById(a);
+		data1.style.display = 'none';
+		let data2 = document.getElementById(b);
+		data2.style.display = 'none';
+		let data3 = document.getElementById(c);
+		data3.style.display = 'none';
+		filterPrice3_3('id9', 'id11', 'id12', 'id13');
+	} else {
+		let data1 = document.getElementById(a);
+		data1.style.display = 'flex';
+		let data2 = document.getElementById(b);
+		data2.style.display = 'flex';
+		let data3 = document.getElementById(c);
+		data3.style.display = 'flex';
+		filterPrice3_3('id9', 'id11', 'id12', 'id13');
+	}
+}
 let productitem0 = document.getElementById('id0');
 
 productitem0.addEventListener('click', function () {
@@ -259,6 +325,86 @@ function showData1() {
 	});
 }
 showData1();
+let count1 = 0;
+function filterPrice1_1(a, b, c, d, e) {
+	count1++;
+
+	if (count % 2 == 1) {
+		let data1 = document.getElementById(a);
+		data1.style.display = 'none';
+		let data2 = document.getElementById(b);
+		data2.style.display = 'none';
+		let data3 = document.getElementById(c);
+		data3.style.display = 'none';
+		let data4 = document.getElementById(d);
+		data4.style.display = 'none';
+		let data5 = document.getElementById(e);
+		data5.style.display = 'none';
+	} else {
+		let data1 = document.getElementById(a);
+		data1.style.display = 'flex';
+		let data2 = document.getElementById(b);
+		data2.style.display = 'flex';
+		let data3 = document.getElementById(c);
+		data3.style.display = 'flex';
+		let data4 = document.getElementById(d);
+		data4.style.display = 'flex';
+		let data5 = document.getElementById(e);
+		data5.style.display = 'flex';
+	}
+}
+let count3 = 0;
+function filterPrice2_2(a, b, c, d, e) {
+	count3++;
+
+	if (count3 % 2 == 1) {
+		let data1 = document.getElementById(a);
+		data1.style.display = 'none';
+		let data2 = document.getElementById(b);
+		data2.style.display = 'none';
+		let data3 = document.getElementById(c);
+		data3.style.display = 'none';
+		let data4 = document.getElementById(d);
+		data4.style.display = 'none';
+		let data5 = document.getElementById(e);
+		data5.style.display = 'none';
+	} else {
+		let data1 = document.getElementById(a);
+		data1.style.display = 'flex';
+		let data2 = document.getElementById(b);
+		data2.style.display = 'flex';
+		let data3 = document.getElementById(c);
+		data3.style.display = 'flex';
+		let data4 = document.getElementById(d);
+		data4.style.display = 'flex';
+		let data5 = document.getElementById(e);
+		data5.style.display = 'flex';
+	}
+}
+let count5 = 0;
+function filterPrice3_3(a, b, c, d) {
+	count5++;
+
+	if (count5 % 2 == 1) {
+		let data1 = document.getElementById(a);
+		data1.style.display = 'none';
+		let data2 = document.getElementById(b);
+		data2.style.display = 'none';
+		let data3 = document.getElementById(c);
+		data3.style.display = 'none';
+		let data4 = document.getElementById(d);
+		data4.style.display = 'none';
+	} else {
+		let data1 = document.getElementById(a);
+		data1.style.display = 'flex';
+		let data2 = document.getElementById(b);
+		data2.style.display = 'flex';
+		let data3 = document.getElementById(c);
+		data3.style.display = 'flex';
+		let data4 = document.getElementById(d);
+		data4.style.display = 'flex';
+	}
+}
 let productitem6 = document.getElementById('id6');
 
 productitem6.addEventListener('click', function () {
