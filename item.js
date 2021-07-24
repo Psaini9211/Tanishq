@@ -341,7 +341,7 @@ child2.append(child21,child22);
 let child3 = document.createElement("button");
 child3.innerHTML = "View Cart";
 child3.setAttribute("class","cartBtn")
-child3.onclick = "go()";
+child3.onclick = "href='Cart.html'";
 
 
 
@@ -378,7 +378,6 @@ function cartPage(){
     
         
         if(res == true){
-            console.log("c"+res)
             myarr.push(value);
             alert2.style.display="block";
             alert2.textContent ="";
