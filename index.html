@@ -3,13 +3,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="style.css " />
+		<link rel="stylesheet" href="style.css" />
+
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 		<link
 			rel="stylesheet"
 			href="https://unpkg.com/flickity@2/dist/flickity.min.css"
 		/>
-		<title>Tanishq</title>
 	</head>
 	<body>
 		<div class="nav">
@@ -20,14 +20,15 @@
 			<select class="navoption nav">
 				<option>GOLD RATE</option>
 			</select>
-			<a class="navRight1" href="login.html">LOGIN</a>
+			<a class="navRight1">LOGIN</a>
 			<a class="navRight">ENCIRCLE</a>
 			<a class="navRight">GOLDEN HARVEST</a>
 			<a class="navRight">BOOK AN APPOINTMENT</a>
 			<a class="navRight">WISHLIST</a>
-			<a class="navRight" href="Cart.html">CART(<a id="cartNo">0</a>)</a>
+			<a class="navRight">CART(<a id="cartNo">0</a>)</a>
 		</div>
 		<div class="line"></div>
+		<div style="width: 98%;margin: auto;">
 		<div id="tanishqimg">
 			<img
 				src="https://www.tanishq.co.in/wps/wcm/connect/tanishq/cb53f671-01d0-449e-b18d-a4e61e6ffa0b/TanishqLogo.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-cb53f671-01d0-449e-b18d-a4e61e6ffa0b-mC036IT"
@@ -72,7 +73,7 @@
 					<ul><li>UTSAVA</li></ul>
 					<ul><li>GULNAZ</li></ul></li>
 				</li>
-				<li>RIVAAH</li>
+				
 				<li>MIA
 					<ul><li>MIA GLAM</li></ul>
 					<ul><li>MIA FESTIVE</li></ul>
@@ -89,6 +90,7 @@
 					src="https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png"
 					id="srch"
 			/></div>
+		</div>	
 		<div id="slideShow"></div>
 	
 		<div
@@ -182,7 +184,7 @@
 			class="carousel"
 			data-flickity='{ "groupCells": true, "autoPlay": false, "imagesLoaded":true }'
 		>
-			<div class="carousel-cell"  onmouseover="boder('t1')" id="t1" onmouseout="noboder('t1')">
+			<div class="carousel-cell"  onmouseover="boder('t1')" id="t1" onmouseout="noboder('t1')" onclick="store(0)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/GCTanishq_1.jpg?impolicy=pqlow"
@@ -190,77 +192,77 @@
 				<div class="imgText">TANISHQ GIFT CARD</div>
 				<div class="money">₹ 1000</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('t2')" id="t2" onmouseout="noboder('t2')">
+			<div class="carousel-cell"  onmouseover="boder('t2')" id="t2" onmouseout="noboder('t2')" onclick="store(1)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/510433SEAAGA00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">ROMANTIC STUD EARRINGS</div>
 				<div class="money">₹ 7529</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('t3')" id="t3" onmouseout="noboder('t3')">
+			<div class="carousel-cell"  onmouseover="boder('t3')" id="t3" onmouseout="noboder('t3')" onclick="store(2)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/500063OXAAAB04_1.jpg?impolicy=pqlow"
 				/><div class="imgText">GLIMMERING SINGLE STUD DIAM..</div>
 				<div class="money">₹ 7428</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('t4')" id="t4" onmouseout="noboder('t4')">
+			<div class="carousel-cell"  onmouseover="boder('t4')" id="t4" onmouseout="noboder('t4')" onclick="store(3)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/500063OFAABA02_1.jpg?impolicy=pqlow"
 				/><div class="imgText">TANISHQ 18 KARAT DIAMOND NO..</div>
 				<div class="money">₹ 5116</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('t5')" id="t5" onmouseout="noboder('t5')">
+			<div class="carousel-cell"  onmouseover="boder('t5')" id="t5" onmouseout="noboder('t5')" onclick="store(4)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/5111541XCABA00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">RADIANT GOLD PENDANT AND EAR...</div>
 				<div class="money">₹ 35087</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('t6')" id="t6" onmouseout="noboder('t6')">
+			<div class="carousel-cell"  onmouseover="boder('t6')" id="t6" onmouseout="noboder('t6')" onclick="store(5)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/510805SIAAGA00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">DAINTY CURVY GOLD STUD EARRI..</div>
 				<div class="money">₹ 11030</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('t7')" id="t7" onmouseout="noboder('t7')">
+			<div class="carousel-cell"  onmouseover="boder('t7')" id="t7" onmouseout="noboder('t7')" onclick="store(6)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/500063OXAABB02_1.jpg?impolicy=pqlow"
 				/><div class="imgText">18 KARAT GOLD AND DIAMOND N..</div>
 				<div class="money">₹ 7118</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('t8')" id="t8" onmouseout="noboder('t8')">
+			<div class="carousel-cell"  onmouseover="boder('t8')" id="t8" onmouseout="noboder('t8')" onclick="store(7)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/510160SPAAGA00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">ALLURING FLORAL GOLD STUD EAR..</div>
 				<div class="money">₹ 11258</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('t9')" id="t9" onmouseout="noboder('t9')">
+			<div class="carousel-cell"  onmouseover="boder('t9')" id="t9" onmouseout="noboder('t9')" onclick="store(8)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/501720SDHAAA00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">GLEAMING ROUND GOLD STUD EAR...</div>
 				<div class="money">₹ 9296</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('t10')" id="t10" onmouseout="noboder('t10')">
+			<div class="carousel-cell"  onmouseover="boder('t10')" id="t10" onmouseout="noboder('t10')" onclick="store(9)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/512814PHZAAA00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">ETHEREAL GANPATI GOLD PANDANT</div>
 				<div class="money">₹ 6668</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('t11')" id="t11" onmouseout="noboder('t11')">
+			<div class="carousel-cell"  onmouseover="boder('t11')" id="t11" onmouseout="noboder('t11')" onclick="store(10)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/502998SBZAAA09_1.jpg?impolicy=pqlow"
 				/><div class="imgText">ROMANTIC DIAMOND HEART STU..</div>
 				<div class="money">₹ 9303</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('t12')" id="t12" onmouseout="noboder('t12')">
+			<div class="carousel-cell"  onmouseover="boder('t12')" id="t12" onmouseout="noboder('t12')" onclick="store(11)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/501032DHAABA18_1.jpg?impolicy=pqlow"
@@ -269,7 +271,7 @@
 			</div>
 		</div>
         <div id="little">Little Big Moments by Tanishq</div>
-       <iframe id="video" width="1172" height="500" src="https://www.youtube.com/embed/VCZ5f_PIxV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe id="video"  src="https://www.youtube.com/embed/VCZ5f_PIxV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        <div id="gender">Shop By Gender</div>
        <div id="genderbox">
            <div id="gender1" onmouseover="boder('gender1')"  onmouseout="noboder('gender1')"> <img src="https://www.tanishq.co.in/wps/wcm/connect/tanishq/ae6a3bbf-07dc-43ae-a529-94ea24d8bc4a/Gender%2BIcons_child.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-ae6a3bbf-07dc-43ae-a529-94ea24d8bc4a-nAXIxGu" alt=""><div>KIDS</div></div>
@@ -283,7 +285,7 @@
 			class="carousel"
 			data-flickity='{ "groupCells": true, "autoPlay": false, "imagesLoaded":true }'
 		>
-			<div class="carousel-cell"  onmouseover="boder('p1')" id="p1" onmouseout="noboder('p1')">
+			<div class="carousel-cell"  onmouseover="boder('p1')" id="p1" onmouseout="noboder('p1')" onclick="store(12)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/503213CADAA00_1.jpg?impolicy=pqlow"
@@ -291,35 +293,35 @@
 				<div class="imgText">18 Karat Gold Chain</div>
 				<div class="money">₹ 24466</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('p2')" id="p2" onmouseout="noboder('p2')">
+			<div class="carousel-cell"  onmouseover="boder('p2')" id="p2" onmouseout="noboder('p2')" onclick="store(13)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/513220VIX2A00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">Stylish Sleek Bangle</div>
 				<div class="money">₹ 41699</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('p3')" id="p3" onmouseout="noboder('p3')">
+			<div class="carousel-cell"  onmouseover="boder('p3')" id="p3" onmouseout="noboder('p3')" onclick="store(14)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/512216VIO1A00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">Minimalastic Gold Kada For Men</div>
 				<div class="money">₹ 38590</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('p4')" id="p4" onmouseout="noboder('p4')">
+			<div class="carousel-cell"  onmouseover="boder('p4')" id="p4" onmouseout="noboder('p4')" onclick="store(15)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/511518YKBAA00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">ManglaSutra Chain In 22 Karat Ye..</div>
 				<div class="money">₹ 130757</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('p5')" id="p5" onmouseout="noboder('p5')">
+			<div class="carousel-cell"  onmouseover="boder('p5')" id="p5" onmouseout="noboder('p5')" onclick="store(16)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/5111541XCABA00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">Radaint Gold Mesh Ring</div>
 				<div class="money">₹ 15772</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('p6')" id="p6" onmouseout="noboder('p6')">
+			<div class="carousel-cell"  onmouseover="boder('p6')" id="p6" onmouseout="noboder('p6')" onclick="store(17)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/511156CTHAA00_1.jpg?impolicy=pqlow"
@@ -327,42 +329,42 @@
 				<div class="money">₹ 27665</div>
 			</div>
 			
-			<div class="carousel-cell"  onmouseover="boder('p7')" id="p7" onmouseout="noboder('p7')">
+			<div class="carousel-cell"  onmouseover="boder('p7')" id="p7" onmouseout="noboder('p7')" onclick="store(18)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/510160SPAAGA00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">Brilant Charming Bangle</div>
 				<div class="money">₹ 42104</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('p8')" id="p8" onmouseout="noboder('p8')">
+			<div class="carousel-cell"  onmouseover="boder('p8')" id="p8" onmouseout="noboder('p8')" onclick="store(19)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/510082CNAAA00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">Simple And Classy Gold Chain For...</div>
 				<div class="money">₹ 19556</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('p9')" id="p9" onmouseout="noboder('p9')">
+			<div class="carousel-cell"  onmouseover="boder('p9')" id="p9" onmouseout="noboder('p9')" onclick="store(20)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/5110982JQAAA00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">Shimmering Gold Neckwear set for...</div>
 				<div class="money">₹ 95370</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('p10')" id="p10" onmouseout="noboder('p10')">
+			<div class="carousel-cell"  onmouseover="boder('p10')" id="p10" onmouseout="noboder('p10')" onclick="store(21)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/5137192FA1BA00_1.jpg?impolicy=pqlow"
 				/><div class="imgText">Resplendent Gold Neckwear Set</div>
 				<div class="money">₹ 477551</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('p11')" id="p11" onmouseout="noboder('p11')">
+			<div class="carousel-cell"  onmouseover="boder('p11')" id="p11" onmouseout="noboder('p11')" onclick="store(22)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/5027202ATABA32_1.jpg?impolicy=pqlow"
 				/><div class="imgText">Winter Chandelier</div>
 				<div class="money">₹ 929211</div>
 			</div>
-			<div class="carousel-cell"  onmouseover="boder('p12')" id="p12" onmouseout="noboder('p12')">
+			<div class="carousel-cell"  onmouseover="boder('p12')" id="p12" onmouseout="noboder('p12')" onclick="store(23)">
 				<img
 					class="w3-image"
 					src="https://staticimg.titan.co.in/Tanishq/Catalog/513319VFO2A00_1.jpg?impolicy=pqlow"
@@ -501,7 +503,8 @@
 		<div class="text1">
 			<div class="text11">TATA PRODUCTS</div>
 			<h6 class="text111">The Tata seal of Trust comes with all our products</h6>
-		</div><div class="text1">
+		</div>
+		<div class="text1">
 			<div class="text11">SHIPPING</div>
 			<h6 class="text111">Shipping in India is free. Shipping charges applicable for International locations.</h6>
 		</div>
@@ -549,7 +552,7 @@
 			
 			</div>
 			<!-- @format -->
-
+<div style="clear: both;">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.44 10.89" class="visa1">
 	<defs></defs>
 	<title>VISA</title>
@@ -587,6 +590,7 @@
 	width="72"
 	height="50"
 	viewBox="0 0 72 43"class="visa"
+	
 >
 	<image
 		xlink:href="data:img/png;base64,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"
@@ -694,6 +698,7 @@
 		</g>
 	</g>
 </svg>
+
 </div>
 <div id="widget">
 	<div id="how">How Can I Help You?<button id="x" onclick="x()">X</button> 
@@ -732,9 +737,10 @@
 		</div>
 		</div>
 </div>
-
+</body>
 
 </html>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-cript src="home.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="home.js"></script>
