@@ -49,6 +49,7 @@ let butn2 = document.getElementById("sq3");
 let chang = document.getElementById("chang");
 let fVal = document.getElementById("fVal");
 let weight = document.getElementById("weigh");
+value["weight"] = "4.567";
 
 
 function change(){
@@ -60,6 +61,7 @@ function change(){
     chang.innerHTML = "&#x20b9"+" "+ (cost-831.75);
     fVal.innerHTML = "&#x20b9"+" "+ (cost)+".00";
     weight.innerHTML = "4.567g";
+    value["weight"] = "4.567";
 
     gridBox(cost)
 }
@@ -72,7 +74,8 @@ function change1(){
     //detail info2
     chang.innerHTML = "&#x20b9"+" "+ (tem-831.75)
     fVal.innerHTML = "&#x20b9"+" "+ (tem)+".00";
-    weight.innerHTML = "4.845g"
+    weight.innerHTML = "4.845g";
+     value["weight"] = "4.845";
     
     gridBox(tem)
 }
@@ -85,7 +88,8 @@ function change2(){
     //detail info2
     chang.innerHTML = "&#x20b9"+" "+ (temp-831.75)
     fVal.innerHTML = "&#x20b9"+" "+ (temp)+".00";
-    weight.innerHTML = "4.859g"
+    weight.innerHTML = "4.859g";
+    value["weight"] = "4.859";
 
     gridBox(temp);
 }
