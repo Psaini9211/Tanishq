@@ -71,10 +71,10 @@ let cost= value.price;
 let tem = cost + 2351;
 let temp = cost + 3468;
 
-let nam = document.getElementsByClassName("");
-let spa = document.getElementById("spa")
+let nam = document.getElementsByClassName("name");
+
 nam.innerHTML = value.name;
-spa.innerHTML = value.name;
+
 
 let mainImg = document.getElementById("product-img")
 
