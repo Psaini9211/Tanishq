@@ -125,6 +125,7 @@ hr {
   margin-top: 1px;
   float: left;
   font-size: 12px;
+  cursor: pointer;
 }
 .bar > p {
   margin-top: 0px;
@@ -182,6 +183,7 @@ hr {
   border: 1px solid black;
   list-style: none;
   padding: 5px;
+  cursor: pointer;
 }
 #enterpromo {
   border: 1px solid grey;
@@ -193,6 +195,7 @@ hr {
   border-bottom: 1px solid grey;
   font-size: 18px;
   color: grey;
+  cursor: pointer;
 }
 #promoinput {
   width: 65%;
@@ -208,6 +211,7 @@ hr {
   background-color: black;
   border: none;
   color: white;
+  cursor: pointer;
 }
 .cart-summry {
   width: 100%;
@@ -253,6 +257,7 @@ hr {
   height: 50px;
   border-radius: 5px;
   margin-top: 50px;
+  cursor: pointer;
 }
 #shopping-link {
   list-style: none;
@@ -264,6 +269,7 @@ hr {
   color: rgb(63, 61, 61);
   font-size: 15px;
   padding: 5px;
+  cursor: pointer;
 }
 .Product-box {
   margin-top: 25px;
@@ -353,11 +359,13 @@ hr {
   margin: 20px;
   padding: 5px;
   letter-spacing: 0.16em;
+  cursor: pointer;
 }
 .checkbox {
   float: left;
   clear: both;
   margin-top: 40px;
+  cursor: pointer;
 }
 #input {
   position: relative;
@@ -417,4 +425,5 @@ hr {
   background-color: black;
   color: white;
   height: 40px;
+  cursor: pointer;
 }
