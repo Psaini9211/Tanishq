@@ -341,9 +341,13 @@ child2.append(child21,child22);
 let child3 = document.createElement("button");
 child3.innerHTML = "View Cart";
 child3.setAttribute("class","cartBtn")
-child3.onclick = "Cart.html";
-child2.se
-let j=0;
+child3.onclick = "go()";
+
+
+
+function go(){
+    window.location.href="Cart.html";
+}
 
 function cartPage(){
     let res=true,tempo=true;
