@@ -72,6 +72,8 @@ let items = [
 	{
 		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/GCTanishq_1.jpg?impolicy=pqlow',
+		image2:
+			'https://staticimg.titan.co.in/Tanishq/Catalog/GCTanishq_1.jpg?impolicy=pqlow',
 		name: 'TANISHQ GIFT CARD',
 		price: 1000,
 	},
