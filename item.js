@@ -309,6 +309,7 @@ function info5(){
 
 }
 
+
 //cart
 
 let cartn = document.getElementById("cartNo");
@@ -345,11 +346,11 @@ child2.se
 let j=0;
 
 function cartPage(){
-    let res=true;
-    if(j==0){
+    let res=true,tempo=true;
         let myarr;
         if(localStorage.getItem("cart") == null){
             myarr = [];
+            res = false;
             myarr.push(value);
             alert2.style.display="block";
             alert2.textContent ="";
@@ -360,17 +361,20 @@ function cartPage(){
         }
         else {
             myarr = JSON.parse(localStorage.getItem("cart"));
-        }
-    
-        for(let k=0 ; k<myarr.length ; k++){
-            if((myarr[k].name == value.name) && (myarr[k].image1 == value.image1)){
-                res = false;
-                break;
+            for(let k=0 ; k<myarr.length ; k++){
+                if((myarr[k].name == value.name) && (myarr[k].image1 == value.image1)){
+                    res = false;
+                    alert1.innerHTML="";
+                    nam.scrollIntoView();
+                    alert1.innerHTML= "Sorry! You can only add the displayed number of items to the cart. Please enter quantity up to 1.";
+                    break;
+                }
             }
         }
-
+    
+        
         if(res == true){
-            console.log(res)
+            console.log("c"+res)
             myarr.push(value);
             alert2.style.display="block";
             alert2.textContent ="";
@@ -379,12 +383,8 @@ function cartPage(){
                 alert2.style.display = "none";
             },5000);
         }
+        
         localStorage.setItem("cart",JSON.stringify(myarr));
         cartn.innerHTML = myarr.length;
-    }
-    j++;
-    if(res == false){
-        alert1.innerHTML="";
-        alert1.innerHTML= "Sorry! You can only add the displayed number of items to the cart. Please enter quantity up to 1.";
-    }
+    
 }
