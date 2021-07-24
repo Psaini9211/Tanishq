@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" href="cart.css" />
+		<script src="cart.js" async></script>
 		<title>Cart</title>
 	</head>
 	<body>
@@ -168,12 +169,12 @@
 					<div class="product-quantity">
                         <div>
 							<fieldset>-</fieldset>
-							<div style="float: left; border: 1px solid black; width:20px; height: 20px; text-align: center; padding: 5px;" >1</div>
+							<input type="text" class="input-quntity" value="1" maxlength="2" minlength="1">
 							<fieldset>+</fieldset>
 						</div>
-						<div id="remove-product">
+						<button type="submit" id="remove-product">
 							REMOVE
-						</div>
+						</button>
 						<div class="checkbox">
 						<input type="checkbox" style="height: 20px; width: 20px;" >
 						<label style="margin-top: -30px;">Add a gift message</label>
