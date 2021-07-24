@@ -159,6 +159,7 @@
             letter-spacing: 1px;
             border: none;
             background: none;
+	    cursor: pointer;
         }
         #weight{
             color: #8c8c8c;
@@ -201,6 +202,7 @@
             border : 1px solid rgb(238, 235, 235);
             margin-right: 0px;
             margin-left: 0px;
+	    cursor: pointer;
         }
         .sq{
             border: 1px solid black;
@@ -223,6 +225,7 @@
             height:6vw;
             border:1px solid rgb(218, 215, 215);
             margin-top:25px;
+	    cursor: pointer;
         }
         .imgSR{ 
             margin-right: 20px;
@@ -267,6 +270,7 @@
             background: none;
             border: none;
             margin-top: 0%;
+	    cursor: pointer;
         }
         #show{
             font-size: 18px;
@@ -306,6 +310,7 @@
             border: 1px solid black;
             font-size: 15px;
             background: white;
+	    cursor: pointer;
         }
         .multi{
             margin-top: 6%;
@@ -316,6 +321,7 @@
             background: none;
             border: none;
             color: #181818;
+	    cursor: pointer;
         }
         .left{
             margin-left: 18%;
@@ -508,9 +514,9 @@
 			/></div>
 		</div><br><br><br><br>
         <div id="child1">
-            <div><button onclick="home()" style="border: none;background: none;color: rgb(73, 72, 72);font-size: 13px;">HOME</button> ><span></span> PRODUCT<span></span> ><span></span><span id="spa"></span></div>
+            <div><button onclick="home()" style="border: none;background: none;color: rgb(73, 72, 72);font-size: 13px;cursor: pointer;">HOME</button> ><span></span> PRODUCT<span></span> ><span></span><span id="spa"></span></div>
         </div>
-        <button id="r1" onclick="imageChange1()" style="float: left;margin-left: 11%;" class="butnSmall"></button>
+        <button id="r1" onclick="imageChange1()" style="float: left;margin-left: 11%;cursor: pointer;" class="butnSmall"></button>
         
         <div id="child2">
             <div>
@@ -519,7 +525,7 @@
                 <div>
                     <img id="img1" onclick="imageChange1()" class="imgSmall imgSR" src="https://staticimg.titan.co.in/Tanishq/Catalog/513220PPVAAA00_1.jpg?impolicy=pqmed&imwidth=640">
                     <img id="img2" onclick="imageChange2()" class="imgSmall" src="https://staticimg.titan.co.in/Tanishq/Catalog/513220PPVAAA00_2.jpg?impolicy=pqmed&imwidth=640"> 
-                    <button id="r2" onclick="imageChange2()" style="float: right;margin-top: 13%;" class="butnSmall">&#62</button> 
+                    <button id="r2" onclick="imageChange2()" style="float: right;margin-top: 13%;cursor: pointer;" class="butnSmall">&#62</button> 
                 </div>  
             </div>
             <div id="second">
@@ -527,7 +533,7 @@
                     <h3 class="h3">513220PPVAAA002EA000070</h3>
                     <h3 id="hh" class="h31">Opulent Elaborate Pendant</h3>
                     <button id="dollars" class="right">$</button>
-                    <button id="rupees" class="right">&#x20b9</button>
+                    <button id="rupees" class="right" style="border: 1px solid black;">&#x20b9</button>
                     <h3 id="price"></h3>
                     <div class="inc">(Incl. of all taxes)</div>
                     <button class="underline" onClick="info2()" >Price Breakup</button>
