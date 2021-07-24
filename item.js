@@ -341,9 +341,7 @@ child2.append(child21,child22);
 let child3 = document.createElement("button");
 child3.innerHTML = "View Cart";
 child3.setAttribute("class","cartBtn")
-child3.onclick = "href='Cart.html'";
-
-
+child3.setAttribute("onclick" ,"go()")
 
 function go(){
     window.location.href="Cart.html";
