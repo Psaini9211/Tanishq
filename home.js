@@ -4,7 +4,10 @@ function prod(){
 window.location.href ="product.html"
 
 }
+function item(){
+window.location.href ="item.html"
 
+}
 
 function slideShow() {
 	const arr = [
