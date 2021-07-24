@@ -108,6 +108,7 @@ productitem1.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data[1];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem2 = document.getElementById('id2');
 
@@ -116,6 +117,7 @@ productitem2.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data[2];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem3 = document.getElementById('id3');
 
@@ -124,6 +126,7 @@ productitem3.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data[3];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem4 = document.getElementById('id4');
 
@@ -132,6 +135,7 @@ productitem4.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data[4];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem5 = document.getElementById('id5');
 
@@ -140,6 +144,7 @@ productitem5.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data[5];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 const data1 = [
 	{
@@ -261,6 +266,7 @@ productitem6.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data1[0];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem7 = document.getElementById('id7');
 
@@ -269,6 +275,7 @@ productitem7.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data1[1];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem8 = document.getElementById('id8');
 
@@ -277,6 +284,7 @@ productitem8.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data1[2];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem9 = document.getElementById('id9');
 
@@ -285,6 +293,7 @@ productitem9.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data1[3];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem10 = document.getElementById('id10');
 
@@ -293,6 +302,7 @@ productitem10.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data1[4];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem11 = document.getElementById('id11');
 
@@ -301,6 +311,7 @@ productitem11.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data1[5];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem12 = document.getElementById('id12');
 
@@ -309,6 +320,7 @@ productitem12.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data1[6];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem13 = document.getElementById('id13');
 
@@ -317,6 +329,7 @@ productitem13.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data1[7];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem14 = document.getElementById('id14');
 
@@ -325,6 +338,7 @@ productitem14.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data1[8];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 var price = true;
 function showPrice() {
