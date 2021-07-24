@@ -4,10 +4,7 @@ function prod(){
 window.location.href ="product.html"
 
 }
-function item(){
-window.location.href ="item.html"
 
-}
 
 /** @format */
 
@@ -102,6 +99,7 @@ productitem0.addEventListener('click', function () {
 	arr = localStorage.getItem('items');
 	arr = data[0];
 	localStorage.setItem('items', JSON.stringify(arr));
+	window.location.href ="item.html"
 });
 let productitem1 = document.getElementById('id1');
 
