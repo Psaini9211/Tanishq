@@ -1,5 +1,10 @@
 /** @format */
 
+function prod(){
+window.location.href ="product.html"
+
+}
+
 const data = [
 	{
 		name: 'Opulent Elaborate Pendant',
