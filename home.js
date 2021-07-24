@@ -73,7 +73,7 @@ let items = [
 		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/GCTanishq_1.jpg?impolicy=pqlow',
 		name: 'TANISHQ GIFT CARD',
-		price: '1000',
+		price: 1000,
 	},
 	{
 		image1:
@@ -81,7 +81,7 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/510433SEAAGA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'ROMANTIC STUD EARRINGS',
-		price: '7529',
+		price: 7529,
 	},
 	{
 		image1:
@@ -90,7 +90,7 @@ let items = [
 			'https://staticimg.titan.co.in/Tanishq/Catalog/500063OXAAAB04_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'GLIMMERING SINGLE STUD DIAM..',
 
-		price: '7428',
+		price: 7428,
 	},
 	{
 		image1:
@@ -98,7 +98,7 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/500063OFAABA02_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'TANISHQ 18 KARAT DIAMOND NO..',
-		price: '5116',
+		price: 5116,
 	},
 	{
 		image1:
@@ -106,7 +106,7 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/5111541XCABA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'RADIANT GOLD PENDANT AND EAR...',
-		price: '35087',
+		price: 35087,
 	},
 	{
 		image1:
@@ -114,14 +114,14 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/510805SIAAGA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'DAINTY CURVY GOLD STUD EARRI..',
-		price: '7529',
+		price: 7529,
 	},
 	{
 		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/500063OXAABB02_1.jpg?impolicy=pqlow',
 		image2: '',
 		name: '18 KARAT GOLD AND DIAMOND N..',
-		price: '7118',
+		price: 7118,
 	},
 	{
 		image1:
@@ -129,7 +129,7 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/510160SPAAGA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'ALLURING FLORAL GOLD STUD EAR..',
-		price: '11258',
+		price: 11258,
 	},
 	{
 		image1:
@@ -137,14 +137,14 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/501720SDHAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'GLEAMING ROUND GOLD STUD EAR...',
-		price: '9296',
+		price: 9296,
 	},
 	{
 		image:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/512814PHZAAA00_1.jpg?impolicy=pqlow',
 		image2: '',
 		name: 'ETHEREAL GANPATI GOLD PANDANTS',
-		price: '6668',
+		price: 6668,
 	},
 	{
 		image1:
@@ -152,7 +152,7 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/502998SBZAAA09_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'ROMANTIC DIAMOND HEART STU..',
-		price: '9303',
+		price: 9303,
 	},
 	{
 		image1:
@@ -160,7 +160,7 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/501032DHAABA18_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'KUMUDA RUBY DROP EARRINGS',
-		price: '20705',
+		price: 20705,
 	},
 	{
 		image1:
@@ -168,7 +168,7 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/503213CADAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: '18 Karat Gold Chain',
-		price: '24466',
+		price: 24466,
 	},
 	{
 		image1:
@@ -176,14 +176,14 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513220VIX2A00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'Stylish Sleek Bangle',
-		price: '41699',
+		price: 41699,
 	},
 	{
 		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/512216VIO1A00_1.jpg?impolicy=pqlow',
 		image2: '',
 		name: 'Minimalastic Gold Kada For Men',
-		price: '38590',
+		price: 38590,
 	},
 	{
 		image1:
@@ -191,7 +191,7 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/511518YKBAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'ManglaSutra Chain In 22 Karat Ye..',
-		price: '130757',
+		price: 130757,
 	},
 	{
 		image1:
@@ -199,7 +199,7 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/5111541XCABA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'Radaint Gold Mesh Ring',
-		price: '15772',
+		price: 15772,
 	},
 	{
 		image1:
@@ -207,14 +207,14 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/511156CTHAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'Eligant Gold Chain For Kids',
-		price: '27665',
+		price: 27665,
 	},
 	{
 		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/510160SPAAGA00_1.jpg?impolicy=pqlow',
 		image2: '',
 		name: 'Brilant Charming Bangle',
-		price: '42104',
+		price: 42104,
 	},
 	{
 		image1:
@@ -222,7 +222,7 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/510082CNAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'Simple And Classy Gold Chain For...',
-		price: '19556',
+		price: 19556,
 	},
 	{
 		image1:
@@ -230,7 +230,7 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/5110982JQAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'Shimmering Gold Neckwear set for...',
-		price: '95370',
+		price: 95370,
 	},
 	{
 		image1:
@@ -238,7 +238,7 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/5137192FA1BA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'Resplendent Gold Neckwear Set',
-		price: '477551',
+		price: 477551,
 	},
 	{
 		image1:
@@ -246,14 +246,14 @@ let items = [
 		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/5027202ATABA32_3.jpg?impolicy=pqmedlow&imwidth=320',
 		name: 'Winter Chandelier',
-		price: '929211',
+		price: 929211,
 	},
 	{
 		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513319VFO2A00_1.jpg?impolicy=pqlow',
 		image2: '',
 		name: 'Lustrious Gold Bangles',
-		price: '60008',
+		price: 60008,
 	},
 ];
 function store(s) {
