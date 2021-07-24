@@ -2,6 +2,11 @@ function home(){
     window.location.href = "home.html"
 }
 
+function prod(){
+window.location.href ="product.html"
+
+}
+
 let div = document.getElementById("second");
 
 
