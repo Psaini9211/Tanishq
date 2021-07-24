@@ -91,7 +91,7 @@ function displayCart() {
 							<input type="text" class="input-quntity" value="1" maxlength="2" minlength="1">
 							<fieldset  class= "fld">+</fieldset>
 						</div>
-						<button type="submit" id="remove-product">
+						<button onclick="removeItemsfromCart(${item.price})" type="submit" id="remove-product">
 							REMOVE
 						</button>
 						<div class="checkbox">
@@ -128,6 +128,15 @@ function displayCart() {
            
         
     }
+}
+function removeItemsfromCart(pid) {
+    let cart = JSON.parse(localStorage.getItem("cart"));
+
+    let newcart = cart.filter((item) => item.price != pid)
+
+    localStorage.setItem("cart", JSON.stringify(newcart))
+
+    updateCart();
 }
 
 displayCart();
