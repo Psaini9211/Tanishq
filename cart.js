@@ -4,31 +4,6 @@ if(my != null){
     cartn.innerHTML = my.length;
 }
 
-let alert1 = document.getElementById("alert1");
-let alert2 = document.getElementById("absolute");
-//childs of alert2
-let child1 = document.createElement("div");
-child1.setAttribute("style","margin: 3% 0% 7% 8%")
-child1.innerHTML= "Item Succesfully Added to Cart";
-let child2 = document.createElement("div");
-child2.setAttribute("class","myC2");
-let child21 = document.createElement("img");
-child21.setAttribute("class","myC21");
-child21.src= value.image1;
-let child22 = document.createElement("div");
-child22.setAttribute("style","font-size:17px;")
-let child221 = document.createElement("div");
-child221.setAttribute("style","margin-bottom:10%")
-child221.innerHTML = value.name;
-let child222 = document.createElement("div");
-child222.innerHTML = `${"&#x20b9"} ${value.price} <br><br>Quantity : 1`;
-child22.append(child221,child222);
-child2.append(child21,child22);
-let child3 = document.createElement("button");
-child3.innerHTML = "View Cart";
-child3.setAttribute("class","cartBtn")
-//child3.onclick = "";
-child2.se
 let j=0;
 
 function cartPage(){
