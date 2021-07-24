@@ -5,14 +5,6 @@ function home(){
 let div = document.getElementById("second");
 
 
-let arr={
-    name : "Opulent Elaborate Pendent",
-    image1: "https://staticimg.titan.co.in/Tanishq/Catalog/513220PPVAAA00_1.jpg?impolicy=pqmed&imwidth=640",
-    image2: "https://staticimg.titan.co.in/Tanishq/Catalog/513220PPVAAA00_2.jpg?impolicy=pqmed&imwidth=640",
-    price : 28696
-}
-
-localStorage.setItem("items",JSON.stringify(arr))
 
 let value = JSON.parse(localStorage.getItem("items"));
 
