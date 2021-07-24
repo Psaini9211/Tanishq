@@ -258,7 +258,5 @@ function store(s) {
 	arr = localStorage.getItem('items');
 	arr = items[s];
 	localStorage.setItem('items', JSON.stringify(arr));
-}
-function store(1){
-window.location.href ="item.html"
+	window.location.href ="item.html"
 }
