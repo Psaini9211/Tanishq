@@ -1,5 +1,5 @@
 let cartn = document.getElementById("cartNo");
-let my = JSON.parse(localStorage.getItem("cart"));
+let my = JSON.parse(localStorage.getItem("cartNo"));
 if(my != null){
     cartn.innerHTML = my.length;
 }
