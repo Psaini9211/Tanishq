@@ -1,6 +1,10 @@
 
 
 //cart
+function checkout(){
+window.location.href ="checkout.html"
+
+}
 function prod(){
 window.location.href ="product.html"
 
