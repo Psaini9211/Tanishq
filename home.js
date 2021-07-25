@@ -7,6 +7,11 @@ window.location.href ="product.html"
 function item(){
 window.location.href ="item.html"
 }
+let cartn = document.getElementById("cartNo");
+let my = JSON.parse(localStorage.getItem("cart"));
+if(my != null){
+    cartn.innerHTML = my.length;
+}
 
 
 function slideShow() {
