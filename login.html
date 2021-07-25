@@ -34,7 +34,7 @@
                         <a href="#">FORGET PASSWORD?</a>
                     </div>
                    
-                        <button type="submit" id="submit" href="index.html" > SUBMIT </button>
+                        <button type="submit" id="submit" onclick="redirect(event)" > SUBMIT </button>
                     
                 </fieldset>
             </form>
@@ -60,4 +60,9 @@
 </body>
 
 </html>
-<script src="login.js"></script>
+<script>
+    function redirect(event){
+        event.preventDefault();
+        window.location.href("index.html");
+    }
+</script>
