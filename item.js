@@ -392,3 +392,18 @@ function cartPage(){
         cartn.innerHTML = myarr.length;
     
 }
+
+
+//zoom image
+let expand = document.getElementById("zooo")
+function zoom(){
+    let zoo = document.createElement("img");
+    zoo.src=  mainImg.src;
+    zoo.setAttribute("class","zoome");
+    zoo.setAttribute("style","display:block;");
+    setTimeout(function(){
+        zoo.style.display = "none"
+    },4000)
+    expand.append(zoo);
+}
+
