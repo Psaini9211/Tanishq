@@ -28,17 +28,17 @@ const data = [
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513220PPVAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
-		name: 'Opulent Elaborate Pendant',
+		name: 'Delicate Paisley Pendant',
 		price: 26207,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
 		image1:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513220PPYAAA00_1.jpg?impolicy=pqmed&imwidth=640',
-		image1:
+		image2:
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513220PPYAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
-		name: 'Opulent Elaborate Pendant',
+		name: 'Diamond Ring In Yellow',
 		price: 30761,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
@@ -58,7 +58,7 @@ const data = [
 			'https://staticimg.titan.co.in/Tanishq/Catalog/513220PQGAAA00_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
-		name: 'Opulent Elaborate Pendant',
+		name: ' Floral Diamond Pendant',
 		price: 33451,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
@@ -68,7 +68,7 @@ const data = [
 			'https://staticimg.titan.co.in/Tanishq/Catalog/503120PDOAAA09_2.jpg?impolicy=pqmedlow&imwidth=320',
 	},
 	{
-		name: 'Opulent Elaborate Pendant',
+		name: 'Ornate Nature Inspired Pendant',
 		price: 26866,
 		try: 'TRY ON AVAILABLE',
 		quick: 'QUICK VIEW',
