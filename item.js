@@ -4,7 +4,10 @@ function home(){
 
 function prod(){
 window.location.href ="product.html"
+}
 
+function land(){
+window.location.href ="login.html"
 }
 
 let div = document.getElementById("second");
