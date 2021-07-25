@@ -12,7 +12,9 @@ let myarray=document.getElementById("cartNo");
 let v=JSON.parse(localStorage.getItem("cart"));
 myarray.innerHTML=v.length;
 
-
+function land(){
+window.location.href="login.html"
+}
 
 /** @format */
 
