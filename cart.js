@@ -67,6 +67,7 @@ function displayCart() {
     let productContainer = document.querySelector
         (".product-details");
     
+    
     console.log(cartn);
     if (cartn && productContainer ) {
         productContainer.innerHTML = '';
@@ -77,7 +78,7 @@ function displayCart() {
 					<div class="product-dis">
 						<p>${item.name}</p>
 						<p id="product-urn">54681PPVVAAA02EA000070</p>
-						<p style="margin-top: -10px;"> &#x20b9; ${item.price}</p>
+						<p style="margin-top: -10px;"> &#x20b9; ${item.price}.00</p>
 						<p id="weight">Weight (g): ${item.weight}</p>
 						<div>
 							<button type="button" data-toggle="dropdown" class="wishlist-btn">
@@ -91,7 +92,7 @@ function displayCart() {
 							<input type="text" class="input-quntity" value="1" maxlength="2" minlength="1">
 							<fieldset  class= "fld">+</fieldset>
 						</div>
-						<button onclick="removeItemsfromCart(${item.price})" type="submit" id="remove-product">
+						<button onclick="removeItemsfromCart(${item.price}.00)" type="submit" id="remove-product">
 							REMOVE
 						</button>
 						<div class="checkbox">
@@ -100,7 +101,7 @@ function displayCart() {
 						</div>
 					</div>
 					<span id="product_price">
-						<p> &#x20b9; ${item.price}</p>
+						<p class = "cartPrice"> &#x20b9; ${item.price}.00</p>
 					</span>
 				</div>
 				<hr style="margin-top: 300px;">
@@ -125,19 +126,33 @@ function displayCart() {
 				<hr style="margin-top: 150px;">
             `
         });
-           
+          let totalPrice = 0;
+    let  cartPrice = productContainer.getElementsByClassName("cartPrice");
+    for (var i = 0; i < cartPrice.length; i++) {
+        priceFormatedNumb = cartPrice[i].innerText.replace('₹', '').replace(',', '');
+        totalPrice = totalPrice + parseInt((priceFormatedNumb));
+    }
+    document.getElementsByClassName('total-price')[0].innerText = new Number(totalPrice).toLocaleString('en');;
         
     }
+
+   
 }
+let totalPrice = 0;
+
 function removeItemsfromCart(pid) {
     let cart = JSON.parse(localStorage.getItem("cart"));
-
+    
     let newcart = cart.filter((item) => item.price != pid)
 
     localStorage.setItem("cart", JSON.stringify(newcart))
 
     displayCart();
 }
+
+
+   
+
 
 
 displayCart();
