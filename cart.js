@@ -1,6 +1,15 @@
 
 
 //cart
+function prod(){
+window.location.href ="product.html"
+
+}
+function home(){
+window.location.href ="index.html"
+
+}
+
 
 let cartn = document.getElementById("cartNo");
 let my = JSON.parse(localStorage.getItem("cart"));
