@@ -446,6 +446,15 @@
             font-size: 15px;
             padding: 7%;
         }
+	.zoome{
+            position: absolute;
+            top: 10%;
+            bottom: 30%;
+            left: 30%;
+            right: 20%;
+            z-index: 11;
+            border: 1px solid rgb(206, 201, 201);
+        }
     </style>
     <body>
         <div class="nav">
@@ -538,7 +547,7 @@
         <div id="child2">
             <div>
                 <img id="mainImg" style="width: 103%;height: 26vw;">
-                <button class="underline zoom">CLICK TO ZOOM</button>
+                <button class="underline zoom" onclick="zoom()" id="zooo">CLICK TO ZOOM</button>
                 <div>
                     <img id="img1" onclick="imageChange1()" class="imgSmall imgSR">
                     <img id="img2" onclick="imageChange2()" class="imgSmall" > 
