@@ -10,7 +10,10 @@ window.location.href="Cart.html"
 }
 let myarray=document.getElementById("cartNo");
 let v=JSON.parse(localStorage.getItem("cart"));
-myarray.innerHTML=v.length;
+if(v!=null){
+    myarray.innerHTML = v.length;
+}
+
 
 function land(){
 window.location.href="login.html"
