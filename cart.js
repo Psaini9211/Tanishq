@@ -136,7 +136,8 @@ function removeItemsfromCart(pid) {
 
     localStorage.setItem("cart", JSON.stringify(newcart))
 
-    updateCart();
+    displayCart();
 }
+
 
 displayCart();
