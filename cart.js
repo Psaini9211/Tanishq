@@ -91,9 +91,11 @@ function displayCart() {
 					</div>
 					<div class="product-quantity">
                         <div>
-							<fieldset class= "fld">-</fieldset>
-							<input type="text" class="input-quntity" value="1" maxlength="2" minlength="1">
-							<fieldset  class= "fld">+</fieldset>
+							<div class="quantity-div">
+							<button class= "fld minus-btn disabled" type= "button">-</button>
+							<input type="text" class="input-quntity" value="1">
+							<button  class= "fld plus-btn" type= "button">+</button>
+						        </div>
 						</div>
 						<button onclick="removeItemsfromCart(${item.price}.00)" type="submit" id="remove-product">
 							REMOVE
@@ -143,7 +145,21 @@ function displayCart() {
     document.getElementsByClassName('total-price')[0].innerText = new Number(totalPrice).toLocaleString('en');;
         
     }
+       document.querySelector(".minus-btn").setAttribute("disabled", "disabled")
 
+    var valueCount = 0;
+
+    document.querySelector(".plus-btn").addEventListener("click", function () {
+        valueCount = document.querySelector(".input-quntity").value;
+        if (valueCount < 1) {
+            valueCount++;
+            document.querySelector(".input-quntity").value = valueCount;
+        } else {
+
+            alert("Sorry! You can only add the displayed number of items to the cart. Please enter quantity up to 1.")
+        }
+        
+    })
    
 }
 let totalPrice = 0;
