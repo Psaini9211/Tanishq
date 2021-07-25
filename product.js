@@ -5,6 +5,14 @@ window.location.href ="product.html"
 
 }
 
+function add(){
+window.location.href="Cart.html"
+}
+let myarray=document.getElementById("cartNo");
+let v=JSON.parse(localStorage.getItem("cart"));
+myarray.innerHTML=v.length;
+
+
 
 /** @format */
 
