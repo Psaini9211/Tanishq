@@ -187,14 +187,12 @@ hr {
   border: 1px solid grey;
   border-bottom: none;
   font-size: 18px;
-  cursor: pointer;
 }
 #viewpromo {
   border: none;
   border-bottom: 1px solid grey;
   font-size: 18px;
   color: grey;
-  cursor: pointer;
 }
 #promoinput {
   width: 65%;
@@ -210,7 +208,6 @@ hr {
   background-color: black;
   border: none;
   color: white;
-  cursor: pointer;
 }
 .cart-summry {
   width: 100%;
@@ -255,8 +252,7 @@ hr {
   color: white;
   height: 50px;
   border-radius: 5px;
-  margin-top: 50px;
-  cursor: pointer;
+  margin-top: 85px;
 }
 #shopping-link {
   list-style: none;
@@ -268,7 +264,6 @@ hr {
   color: rgb(63, 61, 61);
   font-size: 15px;
   padding: 5px;
-  cursor: pointer;
 }
 .Product-box {
   margin-top: 25px;
@@ -290,7 +285,7 @@ hr {
   float: left;
 }
 .quantity {
-  margin-left: 63%;
+  margin-left: 61%;
 }
 #total-header {
   float: right;
@@ -323,13 +318,12 @@ hr {
   margin-top: -10px;
 }
 .wishlist-btn {
-  margin-top: 25px;
+  margin-top: 50px;
   background-color: rgb(240, 240, 240);
   width: 80%;
   height: 50px;
   float: left;
   border: none;
-  cursor: pointer;
 }
 .product-quantity {
   float: left;
@@ -337,17 +331,22 @@ hr {
   margin-left: 5%;
   margin-top: 50px;
 }
+.quantity-div {
+  margin-left: 17px;
+}
 .input-quntity {
   width: 30px;
   height: 30px;
   float: left;
   text-align: center;
+  margin-left: 10px;
 }
 .fld {
   border: none;
   height: 2px;
   width: 2px;
   float: left;
+  cursor: pointer;
 }
 #remove-product {
   float: left;
@@ -360,13 +359,11 @@ hr {
   margin: 20px;
   padding: 5px;
   letter-spacing: 0.16em;
-  cursor: pointer;
 }
 .checkbox {
   float: left;
   clear: both;
   margin-top: 40px;
-  cursor: pointer;
 }
 #input {
   position: relative;
@@ -399,7 +396,6 @@ hr {
   color: white;
   height: 40px;
   border: none;
-  cursor: pointer;
 }
 .contry {
   margin-left: 10%;
@@ -427,5 +423,4 @@ hr {
   background-color: black;
   color: white;
   height: 40px;
-  cursor: pointer;
 }
