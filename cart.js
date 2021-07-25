@@ -117,7 +117,12 @@ function displayCart() {
 						<p>COUNTRY</p>
 						<select>
 							<option>INDIA</option>
-							<option>AMRICA</option>
+							<option>Afghanistan</option>
+							<option>Albania</option>
+							<option>Algeria</option>
+							<option>Barbados</option>
+							<option>Nigeria</option>
+							<option>Japan</option>
 						</select>
 					</div>
 					<div class="pin">
