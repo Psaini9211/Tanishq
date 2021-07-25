@@ -7,9 +7,6 @@ window.location.href ="product.html"
 function item(){
 window.location.href ="item.html"
 }
-let myarray=document.getElementById("cartNo");
-let v=JSON.parse(localStorage.getItem("cart"));
-myarray.innerHTML=v.length;
 
 function slideShow() {
 	const arr = [
