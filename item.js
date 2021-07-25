@@ -403,7 +403,7 @@ function zoom(){
     zoo.setAttribute("style","display:block;");
     setTimeout(function(){
         zoo.style.display = "none"
-    },4000)
+    },2000)
     expand.append(zoo);
 }
 
