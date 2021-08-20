@@ -1,1 +1,1 @@
-https://psaini9211.github.io/Tanishq/ 
+https://psaini9211.github.io/Tanishq/Html
