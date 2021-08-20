@@ -272,10 +272,11 @@ function loginAs() {
 	let boss = document.getElementById('boss');
 	console.log(admin);
 	if (admin == null) {
-		boss.innerText = 'Login Required';
+		document.getElementById('loginName').style.display = 'none';
 	}
 	if (admin != null) {
 		boss.innerText = admin[admin.length - 1].fname;
+		document.getElementById('l').style.color = 'white';
 		//div.append(p);
 		//boss.append(div);
 	}
